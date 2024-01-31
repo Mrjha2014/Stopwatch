@@ -8,8 +8,6 @@
 4. [Usage](#usage)
 5. [Technologies Used](#technologies-used)
 6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
 
 ## Description
 
@@ -28,7 +26,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone [your-repo-link]
+   git clone https://github.com/mrjha2014/stopwatch.git
    ```
 2. Navigate to the project directory:
 

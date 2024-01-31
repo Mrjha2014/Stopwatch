@@ -1,3 +1,6 @@
+/* FILEPATH: /d:/cnnnn_soll/cn_backend/TB2/Stopwatch/src/style.css */
+
+/* Set the font family, layout, and background color for the body */
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -10,6 +13,7 @@ body {
     color: #495057;
 }
 
+/* Styling for the stopwatch container */
 #stopwatch {
     font-size: 4em;
     background-color: #fff;
@@ -22,11 +26,13 @@ body {
     animation: fadeIn 1s;
 }
 
+/* Styling for the buttons container */
 .buttons {
     display: flex;
     align-items: center;
 }
 
+/* Styling for the buttons */
 button {
     border: none;
     padding: 15px 30px;
@@ -37,31 +43,38 @@ button {
     margin: 10px;
 }
 
+/* Styling for the start button */
 .btn-start {
     background-color: #28a745;
 }
 
+/* Styling for the stop button */
 .btn-stop {
     background-color: #dc3545;
 }
 
+/* Styling for the reset button */
 .btn-reset {
     background-color: #ffc107;
 }
 
+/* Hover effect for buttons */
 button:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
+/* Active state for buttons */
 button:active {
     opacity: 0.8;
 }
 
+/* Fade-in animation for the stopwatch */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 600px) {
     #stopwatch {
         font-size: 3em;
